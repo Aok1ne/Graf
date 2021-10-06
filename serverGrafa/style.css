@@ -1,0 +1,81 @@
+h1 {
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 85px;
+}
+@font-face {
+    font-family: 'Akronim', cursive;
+    font-style: normal;
+    font-weight: normal;
+}
+.button1 {
+    display: inline-block;
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    background: url(img/Pi-hole.png);
+    cursor: pointer;
+    border-radius: 50%;
+  
+    box-shadow: 0 3px 20px rgba(0,0,0,.25),
+    inset 0 2px 0 rgba(255,255,255,.6),
+    0 2px 0 rgba(0,0,0,.1),
+    inset 0 0 20px rgba(0,0,0,.1);
+  }
+  .button1:hover {
+    box-shadow: inset 0 0 20px rgba(0,0,0,.2),
+    0 2px 0 rgba(255,255,255,.4),
+    inset 0 2px 0 rgba(0,0,0,.1);
+  }
+  .button2 {
+    display: inline-block;
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+    background: url(img/Torent.png);
+    cursor: pointer;
+    border-radius: 50%;
+  
+    box-shadow: 0 3px 20px rgba(0,0,0,.25),
+    inset 0 2px 0 rgba(255,255,255,.6),
+    0 2px 0 rgba(0,0,0,.1),
+    inset 0 0 20px rgba(0,0,0,.1);
+  }
+  .button2:hover {
+    box-shadow: inset 0 0 20px rgba(0,0,0,.2),
+    0 2px 0 rgba(255,255,255,.4),
+    inset 0 2px 0 rgba(0,0,0,.1);
+  }
+.button3 {
+  display: inline-block;
+  margin: 40px;
+  width: 100px;
+  height: 100px;
+  background: url(img/emby.png);
+  cursor: pointer;
+  border-radius: 50%;
+
+  box-shadow: 0 3px 20px rgba(0,0,0,.25),
+  inset 0 2px 0 rgba(255,255,255,.6),
+  0 2px 0 rgba(0,0,0,.1),
+  inset 0 0 20px rgba(0,0,0,.1);
+}
+.button3:hover {
+  box-shadow: inset 0 0 20px rgba(0,0,0,.2),
+  0 2px 0 rgba(255,255,255,.4),
+  inset 0 2px 0 rgba(0,0,0,.1);
+}
+P { 
+  text-indent: 6.1em; 
+  text-align: justify; 
+  color: aliceblue;
+ }
+ p {
+  font-family: 'Akronim', cursive;
+    font-style : normal;
+    font-weight: normal;
+    font-size: 30px;
+ }
+ h1 {
+  font-family: 'Noto Sans Mono', monospace;
+ }
